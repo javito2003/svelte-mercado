@@ -3,6 +3,7 @@
 	import LogIn from "./pages/LogIn.svelte";
 	import Home from "./pages/Home.svelte";
 	import Register from "./pages/Register.svelte";
+	import Mercado from "./pages/Mercado.svelte";
 
 	export let url = "";
 </script>
@@ -70,5 +71,6 @@
 		<Route path="/" component={Home} />
 		<Route path="/login" component={LogIn} />
 		<Route path="/register" component={Register} />
+		<Route path="/mercado" component={Mercado} />
 	</div>
 </Router>
